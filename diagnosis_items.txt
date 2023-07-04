@@ -1,0 +1,33 @@
+physionet-data.mimiciv_hosp.d_labitems:
+1. Blood urea nitrogen (BUN):
+   a) Urea Nitrogen: itemid = 51006, unit = mg/dL, range = 0.0 to 305.0, freq = 3356489, has important comments
+   b) Urea Nitrogen: itemid = 52647, unit = mg/dL, range = 3.0 to 139.0, freq = 393
+   c) Bun: itemid = 51842 (Never used)
+2. Leukocyte (white blood cell) count:
+   a) Leukocytes: itemid = 51486, unit = NULL or N/A, range = ('500', 'L', 'LARGE', 'LG', 'MD', 'MOD', 'N', 'NEG', 'S', 'SM', 'SMALL', 'TR', 'TRACE'), freq = 719152, has important comments
+   b) Leukocytes: itemid = 51985, unit = NULL or N/A, range = ('LARG', 'LARGE', 'LG', 'MOD', 'MODERATE', 'NEG', 'SMALL', 'TRACE'), freq = 601
+   c) White Blood Cells: itemid = 51301, unit = K/uL, range = 0.0 to 12500.0, freq = 3338050, has important comments
+   d) White Blood Cells: itemid = 51755, unit = K/uL, range = 0.9 to 27.7, freq = 235
+   e) White Blood Cells: itemid = 51756 (Never used)
+3. Platelet count:
+   a) Platelet Count: itemid = 51265, unit = K/uL, range = 5.0 to 2989.0, freq = 3385259, has important comments
+   b) Platelet Count: itemid = 51704 (Never used)
+
+physionet-data.mimiciv_icu.d_items (all are linked to the chartevents table):
+1. Temperature (core temperature):
+   a) Skin Temperature: itemid = 224027, unit = NULL, range = 'Cold' to 'Hot' ('Cold', 'Cool', 'Warm', 'Hot'), freq = 1001676
+   b) Temperature Fahrenheit: itemid = 223761, unit = °F, range = -99.9 to 234123.0, freq = 1595556
+   c) Temperature Celsius: itemid = 223762, unit = °C, range = 0.0 to 987.4, freq = 277069
+   d) Blood Temperature CCO (C): itemid = 226329, unit = °C, range = 0.0 to 336.7, freq = 157905
+2. Respiratory rate:
+   a) Respiratory Rate: itemid = 220210, unit = insp/min, range = 0.0 to 2355560.0, freq = 6720829
+3. PaO2:
+   a) Arterial O2 pressure: itemid = 220224, unit = mmHg, range = -17.0 to 999999.0, freq = 321229
+4. FiO2:
+   a) FiO2 (ECMO): itemid = 229280, unit = %, range = 0.0 to 1000.0, freq = 9754
+   b) FiO2 (CH): itemid = 229841, unit = %, range = 10.0 to 100.0, freq = 743
+   c) Inspired O2 Fraction: itemid = 223835, unit = None, range = 0.0 to 10050.0, freq = 894954
+5. Blood urea nitrogen (BUN):
+   a) BUN: itemid = 225624, unit = NULL or mg/dL, range = 0.0 to 999999.0, freq = 446124
+6. Platelet count:
+   a) Platelet Count: itemid = 227457, unit = NULL or K/uL, range = 0.0 to 999999.0, freq = 408332
